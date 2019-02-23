@@ -15,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function checks if x has been solved and cached already. if not it solves the inverse matrix and then caches it
 
 cacheSolve <- function(x, ...) {
   m <- x$getsolve()
